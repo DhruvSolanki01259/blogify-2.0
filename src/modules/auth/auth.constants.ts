@@ -1,0 +1,17 @@
+export const AUTH_MESSAGES = {
+  LOGIN_SUCCESS: "Logged in successfully",
+  INVALID_CREDENTIALS: "Invalid email or password",
+  UNAUTHORIZED: "Unauthorized",
+};
+
+export const AUTH_STATUS_CODES = {
+  SUCCESS: 200,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  CONFLICT: 409,
+  INTERNAL_SERVER_ERROR: 500,
+};
+
+export const EXPIRES_IN = "7d";
